@@ -1,0 +1,58 @@
+/* Style Landing */
+#home {
+  height: 100vh;
+  padding-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-content {
+  text-align: center;
+  flex-direction: column;
+  line-height: 1.5;
+}
+
+.text-head {
+  font-size: 40px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  color: #000000;
+}
+
+.spancon {
+  color: white;
+  background-color: black;
+  padding: 0px 10px;
+}
+
+.text-body {
+  font-size: 14px;
+}
+
+.nav-android {
+  display: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .nav-android {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 5px 0px;
+    border-radius: 10px;
+  }
+
+  .hr-and {
+    color: black;
+  }
+
+  .menu-and {
+    text-decoration: none;
+    color: black;
+  }
+}
