@@ -1,5 +1,5 @@
 # Project Convert Suhu
-Concelvar is a website project for a temperature converter from Celsius to Fahrenheit or vice versa. I hope this project can be useful for those of you who want to develop with me.
+Concelfar is a website project for a temperature converter from Celsius to Fahrenheit or vice versa. I hope this project can be useful for those of you who want to develop with me.
 
 ## Component Project
     React JS -> Front-End
