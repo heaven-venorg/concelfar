@@ -7,6 +7,7 @@ import Navbar from "./component/Navbar";
 import Landing from "./component/Landing/Landing";
 import Fahtocel from "./component/Fahtocel/Fahtocel";
 import Celtofah from "./component/Celtofah/Celtofah";
+import Notfound from "./component/Notfound/Notfound";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route path="/" element={<Landing />} />
         <Route path="/celtofah" element={<Celtofah />} />
         <Route path="/fahtocel" element={<Fahtocel />} />
+        <Route path="*" element={<Notfound />} />s
       </Routes>
     </Router>
   );

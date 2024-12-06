@@ -1,0 +1,21 @@
+/* Style For NotFound Page */
+#notFound {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 3;
+}
+
+.img {
+  width: 250px;
+  filter: drop-shadow(0px 0px 10px black);
+}
+
+/* Responsif */
+@media only screen and (max-width: 700px) {
+  .img {
+    width: 200px;
+  }
+}
